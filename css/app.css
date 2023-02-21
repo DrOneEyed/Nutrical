@@ -1,0 +1,65 @@
+body{
+    background-color: #2b2d42;
+}
+
+h1{
+    color: #edf2f4;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: #f04f75 underline wavy;
+    letter-spacing: 15px;
+    font-size: 40px;
+    /* font-family: Segoe UI, Futura, Arial, sans-serif; */
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #edf2f4;
+    text-align: center;
+    font-weight: 300;
+    text-decoration: #f04f75 overline underline ;
+    font-size: 20px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+input{
+    color: darkblue;
+    text-align: center;
+}
+
+button{
+    border: 2px solid #17181c;
+    color: #17181c;
+    background: #f04f75;
+}
+
+button:hover{
+    border: 2px solid #f04f75;
+    color: #f04f75;
+    background: #17181c;
+}
+
+label{
+    color: #f04f75;
+}
+
+form table tr th{
+    text-align: right;
+    padding: 5px;
+}
+
+form table tr td{
+    padding: 5px;
+}
+form table{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
